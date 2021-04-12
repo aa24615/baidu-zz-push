@@ -24,7 +24,7 @@ use Zyan\BaiduZzPush\BaiduZzPush;
 
 $token = '准入密钥';
 
-$baidu = BaiduZzPush($token);
+$baidu = new BaiduZzPush($token);
 ```
 
 单条推送
